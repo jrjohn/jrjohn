@@ -1,7 +1,5 @@
 <div align="center">
-
-# Hi, I'm Jr. John 👋
-
+    
 **Software Architect | Full-Stack Developer | Taiwan**
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--6249--1470-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-6249-1470)
