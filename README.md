@@ -32,9 +32,6 @@ flowchart TB
         subgraph Desktop["Desktop"]
             Windows["🪟 Windows<br>WinUI 3 + MVVM"]
         end
-        subgraph Embedded["Embedded"]
-            Embedded1["🔧 IoT Devices"]
-        end
     end
 
     subgraph Cloud["☁️ Cloud Services"]
@@ -55,7 +52,6 @@ flowchart TB
     Mobile --> Cloud
     Web --> Cloud
     Desktop --> Cloud
-    Embedded --> Cloud
     Cloud --> Core
 ```
 
@@ -98,14 +94,6 @@ flowchart TB
 | 🐹 | [**arcana-cloud-go**](https://github.com/jrjohn/arcana-cloud-go) | Go, Gin/Fiber, gRPC | High-performance microservices with native concurrency |
 | 🦀 | [**arcana-cloud-rust**](https://github.com/jrjohn/arcana-cloud-rust) | Rust, Actix/Axum | High-performance cloud services with memory safety |
 | 💚 | [**arcana-cloud-nodejs**](https://github.com/jrjohn/arcana-cloud-nodejs) | Node.js, Express, Prisma | InversifyJS DI, gRPC-first (1.80x faster), dual-protocol support |
-
----
-
-## 🔧 Embedded Systems
-
-| Platform | Repository | Description |
-|:--------:|:-----------|:------------|
-| 🔌 | *Coming Soon* | IoT and embedded system implementations |
 
 ---
 
