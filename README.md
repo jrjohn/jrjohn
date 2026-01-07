@@ -22,14 +22,14 @@ flowchart TB
     subgraph Client["📱 Client Applications"]
         direction LR
         subgraph Mobile["Mobile"]
-            iOS["🍎 iOS\nSwiftUI + SwiftData"]
-            Android["🤖 Android\nJetpack Compose"]
-            HarmonyOS["🔷 HarmonyOS\nArkTS + ArkUI"]
+            iOS["🍎 iOS<br>SwiftUI + SwiftData"]
+            Android["🤖 Android<br>Jetpack Compose"]
+            HarmonyOS["🔷 HarmonyOS<br>ArkTS + ArkUI"]
         end
         subgraph Web["Web"]
-            Angular["🅰️ Angular\nSignals + RxJS"]
-            React["⚛️ React\nHooks + Zustand"]
-            Vue["💚 Vue\nComposition API"]
+            Angular["🅰️ Angular<br>Signals + RxJS"]
+            React["⚛️ React<br>Hooks + Zustand"]
+            Vue["💚 Vue<br>Composition API"]
         end
         subgraph Embedded["Embedded"]
             Embedded1["🔧 IoT Devices"]
@@ -38,10 +38,11 @@ flowchart TB
 
     subgraph Cloud["☁️ Cloud Services"]
         direction LR
-        SpringBoot["☕ Spring Boot\ngRPC + REST + OSGi"]
-        Python["🐍 Python\nFlask + gRPC"]
-        Rust["🦀 Rust\nHigh Performance"]
-        NodeJS["💚 Node.js\nExpress + Prisma"]
+        SpringBoot["☕ Spring Boot<br>gRPC + REST + OSGi"]
+        Python["🐍 Python<br>Flask + gRPC"]
+        Go["🐹 Go<br>High Performance"]
+        Rust["🦀 Rust<br>Memory Safety"]
+        NodeJS["💚 Node.js<br>Express + Prisma"]
     end
 
     subgraph Core["🎯 Core Principles"]
@@ -84,6 +85,7 @@ flowchart TB
 |:--------:|:-----------|:-----------|:------------|
 | ☕ | [**arcana-cloud-springboot**](https://github.com/jrjohn/arcana-cloud-springboot) | Java, Spring Boot, gRPC | Dual-protocol (gRPC 2.5x faster), OSGi Plugin System, GraalJS SSR |
 | 🐍 | [**arcana-cloud-python**](https://github.com/jrjohn/arcana-cloud-python) | Python, Flask, gRPC | gRPC-first architecture (2.78x faster), flexible deployment modes |
+| 🐹 | [**arcana-cloud-go**](https://github.com/jrjohn/arcana-cloud-go) | Go, Gin/Fiber, gRPC | High-performance microservices with native concurrency |
 | 🦀 | [**arcana-cloud-rust**](https://github.com/jrjohn/arcana-cloud-rust) | Rust, Actix/Axum | High-performance cloud services with memory safety |
 | 💚 | [**arcana-cloud-nodejs**](https://github.com/jrjohn/arcana-cloud-nodejs) | Node.js, Express, Prisma | InversifyJS DI, gRPC-first (1.80x faster), dual-protocol support |
 
@@ -97,13 +99,13 @@ flowchart TB
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jrjohn&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jrjohn&layout=compact&theme=tokyonight&hide_border=true)
+![Profile Views](https://komarev.com/ghpvc/?username=jrjohn&color=blueviolet&style=flat-square)
+[![GitHub followers](https://img.shields.io/github/followers/jrjohn?style=flat-square&logo=github)](https://github.com/jrjohn?tab=followers)
+[![GitHub stars](https://img.shields.io/github/stars/jrjohn?style=flat-square&logo=github)](https://github.com/jrjohn?tab=repositories)
 
 </div>
 
