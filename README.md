@@ -29,6 +29,9 @@ flowchart TB
             React["⚛️ React<br>Hooks + Zustand"]
             Vue["💚 Vue<br>Composition API"]
         end
+        subgraph Desktop["Desktop"]
+            Windows["🪟 Windows<br>WinUI 3 + MVVM"]
+        end
         subgraph Embedded["Embedded"]
             Embedded1["🔧 IoT Devices"]
         end
@@ -51,6 +54,7 @@ flowchart TB
 
     Mobile --> Cloud
     Web --> Cloud
+    Desktop --> Cloud
     Embedded --> Cloud
     Cloud --> Core
 ```
@@ -64,6 +68,14 @@ flowchart TB
 | 🍎 | [**arcana-ios**](https://github.com/jrjohn/arcana-ios) | Swift, SwiftUI, SwiftData | Clean Architecture with Offline-First design and Analytics Tracking |
 | 🤖 | [**arcana-android**](https://github.com/jrjohn/arcana-android) | Kotlin, Jetpack Compose, Hilt | Clean Architecture with Offline-First design and AOP Analytics |
 | 🔷 | [**arcana-harmonyos**](https://github.com/jrjohn/arcana-harmonyos) | ArkTS, ArkUI | HarmonyOS NEXT application with Clean Architecture |
+
+---
+
+## 🖥️ Desktop Development
+
+| Platform | Repository | Tech Stack | Description |
+|:--------:|:-----------|:-----------|:------------|
+| 🪟 | [**arcana-windows**](https://github.com/jrjohn/arcana-windows) | C#, WinUI 3, MVVM | Clean Architecture with Plugin System and CRDT-based Offline Sync |
 
 ---
 
