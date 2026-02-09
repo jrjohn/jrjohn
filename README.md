@@ -34,6 +34,12 @@ flowchart TB
         end
     end
 
+    subgraph Embedded["🔌 Embedded Systems"]
+        direction LR
+        STM32["🛠️ STM32<br>C / Bare Metal"]
+        ESP32["📡 ESP32<br>C++ / IoT"]
+    end
+
     subgraph Cloud["☁️ Cloud Services"]
         direction LR
         SpringBoot["☕ Spring Boot<br>gRPC + REST + OSGi"]
@@ -41,6 +47,12 @@ flowchart TB
         Go["🐹 Go<br>High Performance"]
         Rust["🦀 Rust<br>Memory Safety"]
         NodeJS["💚 Node.js<br>Express + Prisma"]
+    end
+
+    subgraph AI["🤖 AI & Skills"]
+        direction LR
+        Agent["🧠 AI Agent"]
+        Skills["⚡ Claude Skills"]
     end
 
     subgraph Core["🎯 Core Principles"]
@@ -52,7 +64,9 @@ flowchart TB
     Mobile --> Cloud
     Web --> Cloud
     Desktop --> Cloud
+    Embedded --> Cloud
     Cloud --> Core
+    AI --> Core
 ```
 
 ---
@@ -85,6 +99,15 @@ flowchart TB
 
 ---
 
+## 🔌 Embedded Systems
+
+| Platform | Repository | Tech Stack | Description |
+|:--------:|:-----------|:-----------|:------------|
+| 🛠️ | [**arcana-embedded-stm32**](https://github.com/jrjohn/arcana-embedded-stm32) | C | STM32 embedded systems with Clean Architecture |
+| 📡 | [**arcana-embedded-esp32**](https://github.com/jrjohn/arcana-embedded-esp32) | C++ | ESP32 IoT embedded systems development |
+
+---
+
 ## ☁️ Cloud Services
 
 | Language | Repository | Tech Stack | Description |
@@ -94,6 +117,16 @@ flowchart TB
 | 🐹 | [**arcana-cloud-go**](https://github.com/jrjohn/arcana-cloud-go) | Go, Gin/Fiber, gRPC | High-performance microservices with native concurrency |
 | 🦀 | [**arcana-cloud-rust**](https://github.com/jrjohn/arcana-cloud-rust) | Rust, Actix/Axum | High-performance cloud services with memory safety |
 | 💚 | [**arcana-cloud-nodejs**](https://github.com/jrjohn/arcana-cloud-nodejs) | Node.js, Express, Prisma | InversifyJS DI, gRPC-first (1.80x faster), dual-protocol support |
+
+---
+
+## 🤖 AI & Skills
+
+| Project | Repository | Tech Stack | Description |
+|:-------:|:-----------|:-----------|:------------|
+| 🧠 | [**arcana-ai-agent**](https://github.com/jrjohn/arcana-ai-agent) | - | AI Agent implementation |
+| ⚡ | [**arcana-skills**](https://github.com/jrjohn/arcana-skills) | HTML | Claude Skills for Software Developer |
+| 🔧 | [**skills**](https://github.com/jrjohn/skills) | JavaScript | AI Skill implementation |
 
 ---
 
