@@ -49,12 +49,6 @@ flowchart TB
         NodeJS["💚 Node.js<br>Express + Prisma"]
     end
 
-    subgraph AI["🤖 AI & Skills"]
-        direction LR
-        Agent["🧠 AI Agent"]
-        Skills["⚡ Claude Skills"]
-    end
-
     subgraph Core["🎯 Core Principles"]
         CA["Clean Architecture"]
         OF["Offline-First"]
@@ -66,7 +60,6 @@ flowchart TB
     Desktop --> Cloud
     Embedded --> Cloud
     Cloud --> Core
-    AI --> Core
 ```
 
 ---
