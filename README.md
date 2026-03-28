@@ -128,6 +128,14 @@ flowchart TB
 
 ---
 
+## 🏛️ DevOps & Quality
+
+| Project | Repository | Tech Stack | Description |
+|:-------:|:-----------|:-----------|:------------|
+| 🏛️ | [**arcana-arch-qube**](https://github.com/jrjohn/arcana-arch-qube) | Python, Claude API | AI-powered Architecture Quality Gate — 21 rules, 14 profiles, CI/CD integration |
+
+---
+
 ## 🤖 AI & Skills
 
 | Project | Repository | Tech Stack | Description |
