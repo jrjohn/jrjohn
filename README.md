@@ -20,33 +20,33 @@ flowchart TB
     subgraph Client["📱 Client Applications"]
         direction LR
         subgraph Mobile["Mobile"]
-            iOS["🍎 iOS<br>SwiftUI + SwiftData"]
-            Android["🤖 Android<br>Jetpack Compose"]
-            HarmonyOS["🔷 HarmonyOS<br>ArkTS + ArkUI"]
+            iOS["🍎 iOS<br>SwiftUI + SwiftData<br>⭐ 9.5"]
+            Android["🤖 Android<br>Jetpack Compose<br>⭐ 9.2"]
+            HarmonyOS["🔷 HarmonyOS<br>ArkTS + ArkUI<br>⭐ 9.2"]
         end
         subgraph Web["Web"]
-            Angular["🅰️ Angular<br>Signals + RxJS"]
-            React["⚛️ React<br>Hooks + Zustand"]
-            Vue["💚 Vue<br>Composition API"]
+            Angular["🅰️ Angular<br>Signals + RxJS<br>⭐ 9.4"]
+            React["⚛️ React<br>Hooks + Zustand<br>⭐ 9.2"]
+            Vue["💚 Vue<br>Composition API<br>⭐ 10.0"]
         end
         subgraph Desktop["Desktop"]
-            Windows["🪟 Windows<br>WinUI 3 + MVVM"]
+            Windows["🪟 Windows<br>WinUI 3 + MVVM<br>⭐ 9.0"]
         end
     end
 
     subgraph Embedded["🔌 Embedded Systems"]
         direction LR
-        STM32["🛠️ STM32<br>C / Bare Metal"]
-        ESP32["📡 ESP32<br>C++ / IoT"]
+        STM32["🛠️ STM32<br>C / Bare Metal<br>⭐ 7.5"]
+        ESP32["📡 ESP32<br>C++ / IoT<br>⭐ 8.3"]
     end
 
     subgraph Cloud["☁️ Cloud Services"]
         direction LR
-        SpringBoot["☕ Spring Boot<br>gRPC + REST + OSGi"]
-        Python["🐍 Python<br>Flask + gRPC"]
-        Go["🐹 Go<br>High Performance"]
-        Rust["🦀 Rust<br>Memory Safety"]
-        NodeJS["💚 Node.js<br>Express + Prisma"]
+        SpringBoot["☕ Spring Boot<br>gRPC + REST + OSGi<br>⭐ 9.3"]
+        Python["🐍 Python<br>Flask + gRPC<br>⭐ 9.2"]
+        Go["🐹 Go<br>High Performance<br>⭐ 8.6"]
+        Rust["🦀 Rust<br>Memory Safety<br>⭐ 9.0"]
+        NodeJS["💚 Node.js<br>Express + Prisma<br>⭐ 9.5"]
     end
 
     subgraph Core["🎯 Core Principles"]
