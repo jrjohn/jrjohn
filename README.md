@@ -60,6 +60,21 @@ flowchart TB
     Desktop --> Cloud
     Embedded --> Cloud
     Cloud --> Core
+
+    click iOS "https://github.com/jrjohn/arcana-ios" _blank
+    click Android "https://github.com/jrjohn/arcana-android" _blank
+    click HarmonyOS "https://github.com/jrjohn/arcana-harmonyos" _blank
+    click Angular "https://github.com/jrjohn/arcana-angular" _blank
+    click React "https://github.com/jrjohn/arcana-react" _blank
+    click Vue "https://github.com/jrjohn/arcana-vue" _blank
+    click Windows "https://github.com/jrjohn/arcana-windows" _blank
+    click STM32 "https://github.com/jrjohn/arcana-embedded-stm32" _blank
+    click ESP32 "https://github.com/jrjohn/arcana-embedded-esp32" _blank
+    click SpringBoot "https://github.com/jrjohn/arcana-cloud-springboot" _blank
+    click Python "https://github.com/jrjohn/arcana-cloud-python" _blank
+    click Go "https://github.com/jrjohn/arcana-cloud-go" _blank
+    click Rust "https://github.com/jrjohn/arcana-cloud-rust" _blank
+    click NodeJS "https://github.com/jrjohn/arcana-cloud-nodejs" _blank
 ```
 
 ---
