@@ -1,6 +1,6 @@
 <div align="center">
     
-**System/Software Architect | Full-Stack Developer | Taiwan**
+**System/Software Architect | Full-Stack Developer | Technical Lead | Taiwan**
 
 [![Email](https://img.shields.io/badge/Email-jr.johnchang%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:jr.johnchang@gmail.com)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--6249--1470-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-6249-1470)
