@@ -7,6 +7,8 @@
 
 *Building enterprise-grade applications with Clean Architecture design*
 
+*Turning ideas into reality*
+
 </div>
 
 ---
