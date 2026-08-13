@@ -1,0 +1,38 @@
+name: Auto-merge my PRs
+
+# Squash-merges any PR that I (jrjohn) open, once it's mergeable.
+# External contributors' PRs are NOT auto-merged (author guard below).
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  automerge:
+    # only my own, non-draft PRs
+    if: >-
+      github.event.pull_request.user.login == 'jrjohn' &&
+      github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Squash-merge when mergeable
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          for i in $(seq 1 12); do
+            state=$(gh pr view "$PR" --repo "$REPO" --json mergeable --jq '.mergeable')
+            echo "attempt $i: mergeable=$state"
+            if [ "$state" = "MERGEABLE" ]; then
+              gh pr merge "$PR" --repo "$REPO" --squash --delete-branch && exit 0
+            fi
+            if [ "$state" = "CONFLICTING" ]; then
+              echo "PR has conflicts — leaving open for manual resolution"; exit 0
+            fi
+            sleep 6
+          done
+          echo "mergeable state never resolved; leaving PR open"; exit 0
