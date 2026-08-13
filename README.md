@@ -33,6 +33,7 @@ flowchart TB
         end
         subgraph Desktop["Desktop"]
             Windows["🪟 Windows<br>WinUI 3 + MVVM<br>⭐ 9.0"]
+            macOS["🍎 macOS<br>SwiftUI + SwiftData<br>⭐ 9.4"]
         end
     end
 
@@ -70,6 +71,7 @@ flowchart TB
     click React "https://github.com/jrjohn/arcana-react" _blank
     click Vue "https://github.com/jrjohn/arcana-vue" _blank
     click Windows "https://github.com/jrjohn/arcana-windows" _blank
+    click macOS "https://github.com/jrjohn/arcana-macos" _blank
     click STM32 "https://github.com/jrjohn/arcana-embedded-stm32" _blank
     click ESP32 "https://github.com/jrjohn/arcana-embedded-esp32" _blank
     click SpringBoot "https://github.com/jrjohn/arcana-cloud-springboot" _blank
@@ -96,6 +98,7 @@ flowchart TB
 | Platform | Repository | Tech Stack | Description |
 |:--------:|:-----------|:-----------|:------------|
 | 🪟 | [**arcana-windows**](https://github.com/jrjohn/arcana-windows) | C#, WinUI 3, MVVM | Clean Architecture with Plugin System and CRDT-based Offline Sync |
+| 🍎 | [**arcana-macos**](https://github.com/jrjohn/arcana-macos) | Swift, SwiftUI, SwiftData | Clean Architecture with Offline-First design and SwiftData persistence |
 
 ---
 
