@@ -19,28 +19,35 @@ A comprehensive collection of enterprise-grade reference architectures implement
 
 ```mermaid
 flowchart TB
-    subgraph Client["📱 Client Applications"]
+    style Apps fill:none,stroke:none
+    subgraph Apps[" "]
         direction LR
-        subgraph Mobile["Mobile"]
-            iOS["🍎 iOS<br/>⭐ 9.5"]
-            Android["🤖 Android<br/>⭐ 9.2"]
-            HarmonyOS["🔷 HarmonyOS<br/>⭐ 9.2"]
+        subgraph Client["📱 Client Applications"]
+            direction TB
+            subgraph Desktop["Desktop"]
+                Windows["🪟 Windows<br/>⭐ 9.0"]
+                macOS["🍎 macOS<br/>⭐ 9.4"]
+            end
+            subgraph Web["Web"]
+                Angular["🅰️ Angular<br/>⭐ 9.4"]
+                React["⚛️ React<br/>⭐ 9.2"]
+                Vue["💚 Vue<br/>⭐ 10.0"]
+            end
+            subgraph Mobile["Mobile"]
+                iOS["🍎 iOS<br/>⭐ 9.5"]
+                Android["🤖 Android<br/>⭐ 9.2"]
+                HarmonyOS["🔷 HarmonyOS<br/>⭐ 9.2"]
+            end
+            Desktop ~~~ Web
+            Web ~~~ Mobile
         end
-        subgraph Web["Web"]
-            Angular["🅰️ Angular<br/>⭐ 9.4"]
-            React["⚛️ React<br/>⭐ 9.2"]
-            Vue["💚 Vue<br/>⭐ 10.0"]
+        subgraph Embedded["🔌 Embedded Systems"]
+            direction TB
+            STM32["🛠️ STM32<br/>⭐ 7.5"]
+            ESP32["📡 ESP32<br/>⭐ 8.3"]
+            STM32 ~~~ ESP32
         end
-        subgraph Desktop["Desktop"]
-            Windows["🪟 Windows<br/>⭐ 9.0"]
-            macOS["🍎 macOS<br/>⭐ 9.4"]
-        end
-    end
-
-    subgraph Embedded["🔌 Embedded Systems"]
-        direction LR
-        STM32["🛠️ STM32<br/>⭐ 7.5"]
-        ESP32["📡 ESP32<br/>⭐ 8.3"]
+        Client ~~~ Embedded
     end
 
     subgraph Cloud["☁️ Cloud Services"]
@@ -58,12 +65,8 @@ flowchart TB
         MVVM["MVVM I/O/E Pattern"]
     end
 
-    Mobile --> Cloud
-    Web --> Cloud
-    Desktop --> Cloud
-    Embedded --> Cloud
+    Apps --> Cloud
     Cloud --> Core
-
     click iOS "https://github.com/jrjohn/arcana-ios" _blank
     click Android "https://github.com/jrjohn/arcana-android" _blank
     click HarmonyOS "https://github.com/jrjohn/arcana-harmonyos" _blank
