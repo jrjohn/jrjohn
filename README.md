@@ -19,6 +19,14 @@ A comprehensive collection of enterprise-grade reference architectures implement
 
 ![Arcana Architecture Suite](assets/architecture.svg)
 
+> **▶ Open any component — click a badge below** *(the diagram is an image; these are the live links)*
+
+**📱 Mobile** &nbsp; [![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/jrjohn/arcana-ios) [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/jrjohn/arcana-android) [![HarmonyOS](https://img.shields.io/badge/HarmonyOS-000000?style=for-the-badge&logo=huawei&logoColor=white)](https://github.com/jrjohn/arcana-harmonyos)  
+**🖥️ Desktop** &nbsp; [![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge)](https://github.com/jrjohn/arcana-windows) [![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/jrjohn/arcana-macos)  
+**🌐 Web** &nbsp; [![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://github.com/jrjohn/arcana-angular) [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://github.com/jrjohn/arcana-react) [![Vue](https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)](https://github.com/jrjohn/arcana-vue)  
+**🔌 Embedded** &nbsp; [![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)](https://github.com/jrjohn/arcana-embedded-stm32) [![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)](https://github.com/jrjohn/arcana-embedded-esp32)  
+**☁️ Cloud** &nbsp; [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://github.com/jrjohn/arcana-cloud-springboot) [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/jrjohn/arcana-cloud-python) [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://github.com/jrjohn/arcana-cloud-go) [![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/jrjohn/arcana-cloud-rust) [![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://github.com/jrjohn/arcana-cloud-nodejs)  
+
 ---
 
 ## 📱 Mobile Development
