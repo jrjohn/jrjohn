@@ -65,7 +65,10 @@ flowchart TB
         MVVM["MVVM I/O/E Pattern"]
     end
 
-    Apps --> Cloud
+    Desktop --> Cloud
+    Web --> Cloud
+    Mobile --> Cloud
+    Embedded --> Cloud
     Cloud --> Core
     click iOS "https://github.com/jrjohn/arcana-ios" _blank
     click Android "https://github.com/jrjohn/arcana-android" _blank
