@@ -101,7 +101,7 @@ A comprehensive collection of enterprise-grade reference architectures implement
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=jrjohn&color=blueviolet&style=flat-square)
+![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=jrjohn.jrjohn&left_text=Profile%20Views&left_color=gray&right_color=blueviolet)
 [![GitHub followers](https://img.shields.io/github/followers/jrjohn?style=flat-square&logo=github)](https://github.com/jrjohn?tab=followers)
 [![GitHub stars](https://img.shields.io/github/stars/jrjohn?style=flat-square&logo=github)](https://github.com/jrjohn?tab=repositories)
 
