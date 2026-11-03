@@ -17,15 +17,68 @@
 
 A comprehensive collection of enterprise-grade reference architectures implementing **Clean Architecture**, **Offline-First** design, and **MVVM patterns** across multiple platforms.
 
-![Arcana Architecture Suite](assets/architecture.svg)
+<table align="center">
+<tr>
+<th colspan="3">🧩 Client Applications</th>
+<th>🔌 Embedded Systems</th>
+</tr>
+<tr>
+<td colspan="3" align="center"><sub><b>🖥️ DESKTOP</b></sub></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/jrjohn/arcana-windows"><img src="assets/cards/windows.svg" alt="Windows" width="160"></a></td>
+<td><a href="https://github.com/jrjohn/arcana-macos"><img src="assets/cards/macos.svg" alt="macOS" width="160"></a></td>
+<td><a href="https://github.com/jrjohn/arcana-desktop-rust"><img src="assets/cards/desktop-rust.svg" alt="Rust desktop" width="160"></a></td>
+<td><a href="https://github.com/jrjohn/arcana-embedded-stm32"><img src="assets/cards/stm32.svg" alt="STM32" width="160"></a></td>
+</tr>
+<tr>
+<td colspan="3" align="center"><sub><b>🌐 WEB</b></sub></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/jrjohn/arcana-angular"><img src="assets/cards/angular.svg" alt="Angular" width="160"></a></td>
+<td><a href="https://github.com/jrjohn/arcana-react"><img src="assets/cards/react.svg" alt="React" width="160"></a></td>
+<td><a href="https://github.com/jrjohn/arcana-vue"><img src="assets/cards/vue.svg" alt="Vue" width="160"></a></td>
+<td><a href="https://github.com/jrjohn/arcana-embedded-esp32"><img src="assets/cards/esp32.svg" alt="ESP32" width="160"></a></td>
+</tr>
+<tr>
+<td colspan="3" align="center"><sub><b>📱 MOBILE</b></sub></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/jrjohn/arcana-ios"><img src="assets/cards/ios.svg" alt="iOS" width="160"></a></td>
+<td><a href="https://github.com/jrjohn/arcana-android"><img src="assets/cards/android.svg" alt="Android" width="160"></a></td>
+<td><a href="https://github.com/jrjohn/arcana-harmonyos"><img src="assets/cards/harmonyos.svg" alt="HarmonyOS" width="160"></a></td>
+<td></td>
+</tr>
+</table>
 
-> **▶ Open any component — click a badge below** *(the diagram is an image; these are the live links)*
+<p align="center">⬇️</p>
 
-**📱 Mobile** &nbsp; [![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/jrjohn/arcana-ios) [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/jrjohn/arcana-android) [![HarmonyOS](https://img.shields.io/badge/HarmonyOS-000000?style=for-the-badge&logo=huawei&logoColor=white)](https://github.com/jrjohn/arcana-harmonyos)  
-**🖥️ Desktop** &nbsp; [![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge)](https://github.com/jrjohn/arcana-windows) [![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/jrjohn/arcana-macos) [![Rust](https://img.shields.io/badge/Rust_egui-CE422B?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/jrjohn/arcana-desktop-rust)  
-**🌐 Web** &nbsp; [![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://github.com/jrjohn/arcana-angular) [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://github.com/jrjohn/arcana-react) [![Vue](https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)](https://github.com/jrjohn/arcana-vue)  
-**🔌 Embedded** &nbsp; [![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)](https://github.com/jrjohn/arcana-embedded-stm32) [![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)](https://github.com/jrjohn/arcana-embedded-esp32)  
-**☁️ Cloud** &nbsp; [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://github.com/jrjohn/arcana-cloud-springboot) [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/jrjohn/arcana-cloud-python) [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://github.com/jrjohn/arcana-cloud-go) [![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/jrjohn/arcana-cloud-rust) [![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://github.com/jrjohn/arcana-cloud-nodejs)  
+<table align="center">
+<tr><th colspan="5">☁️ Cloud Services</th></tr>
+<tr>
+<td><a href="https://github.com/jrjohn/arcana-cloud-springboot"><img src="assets/cards/springboot.svg" alt="Spring Boot" width="160"></a></td>
+<td><a href="https://github.com/jrjohn/arcana-cloud-python"><img src="assets/cards/python.svg" alt="Python" width="160"></a></td>
+<td><a href="https://github.com/jrjohn/arcana-cloud-go"><img src="assets/cards/go.svg" alt="Go" width="160"></a></td>
+<td><a href="https://github.com/jrjohn/arcana-cloud-rust"><img src="assets/cards/cloud-rust.svg" alt="Rust cloud" width="160"></a></td>
+<td><a href="https://github.com/jrjohn/arcana-cloud-nodejs"><img src="assets/cards/nodejs.svg" alt="Node.js" width="160"></a></td>
+</tr>
+</table>
+
+<p align="center">⬇️</p>
+
+<table align="center">
+<tr><th colspan="3">🧭 Core Principles</th></tr>
+<tr>
+<td><img src="assets/cards/clean-architecture.svg" alt="Clean Architecture" width="226"></td>
+<td><img src="assets/cards/offline-first.svg" alt="Offline-First" width="226"></td>
+<td><img src="assets/cards/mvvm.svg" alt="MVVM I/O/E Pattern" width="226"></td>
+</tr>
+</table>
+
+<p align="center"><sub>▶ Click any card to open its repository</sub></p>
 
 ---
 
