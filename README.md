@@ -23,19 +23,31 @@ A comprehensive collection of enterprise-grade reference architectures implement
 <th>🔌 Embedded Systems</th>
 </tr>
 <tr>
-<td><a href="https://github.com/jrjohn/arcana-windows"><img src="assets/cards/windows.svg" alt="Windows" width="160"></a><br><sub>🖥️ Desktop</sub></td>
+<td colspan="3" align="center"><sub><b>🖥️ DESKTOP</b></sub></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/jrjohn/arcana-windows"><img src="assets/cards/windows.svg" alt="Windows" width="160"></a></td>
 <td><a href="https://github.com/jrjohn/arcana-macos"><img src="assets/cards/macos.svg" alt="macOS" width="160"></a></td>
 <td><a href="https://github.com/jrjohn/arcana-desktop-rust"><img src="assets/cards/desktop-rust.svg" alt="Rust desktop" width="160"></a></td>
 <td><a href="https://github.com/jrjohn/arcana-embedded-stm32"><img src="assets/cards/stm32.svg" alt="STM32" width="160"></a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/jrjohn/arcana-angular"><img src="assets/cards/angular.svg" alt="Angular" width="160"></a><br><sub>🌐 Web</sub></td>
+<td colspan="3" align="center"><sub><b>🌐 WEB</b></sub></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/jrjohn/arcana-angular"><img src="assets/cards/angular.svg" alt="Angular" width="160"></a></td>
 <td><a href="https://github.com/jrjohn/arcana-react"><img src="assets/cards/react.svg" alt="React" width="160"></a></td>
 <td><a href="https://github.com/jrjohn/arcana-vue"><img src="assets/cards/vue.svg" alt="Vue" width="160"></a></td>
 <td><a href="https://github.com/jrjohn/arcana-embedded-esp32"><img src="assets/cards/esp32.svg" alt="ESP32" width="160"></a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/jrjohn/arcana-ios"><img src="assets/cards/ios.svg" alt="iOS" width="160"></a><br><sub>📱 Mobile</sub></td>
+<td colspan="3" align="center"><sub><b>📱 MOBILE</b></sub></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/jrjohn/arcana-ios"><img src="assets/cards/ios.svg" alt="iOS" width="160"></a></td>
 <td><a href="https://github.com/jrjohn/arcana-android"><img src="assets/cards/android.svg" alt="Android" width="160"></a></td>
 <td><a href="https://github.com/jrjohn/arcana-harmonyos"><img src="assets/cards/harmonyos.svg" alt="HarmonyOS" width="160"></a></td>
 <td></td>
