@@ -157,8 +157,8 @@ A comprehensive collection of enterprise-grade reference architectures implement
 <div align="center">
 
 ![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=jrjohn.jrjohn&left_text=Profile%20Views&left_color=gray&right_color=blueviolet)
-[![GitHub followers](https://img.shields.io/github/followers/jrjohn?style=flat-square&logo=github)](https://github.com/jrjohn?tab=followers)
-[![GitHub stars](https://img.shields.io/github/stars/jrjohn?style=flat-square&logo=github)](https://github.com/jrjohn?tab=repositories)
+[![GitHub followers](https://img.shields.io/badge/followers-4-blue?style=flat-square&logo=github)](https://github.com/jrjohn?tab=followers)
+[![GitHub stars](https://img.shields.io/badge/stars-10-blue?style=flat-square&logo=github)](https://github.com/jrjohn?tab=repositories)
 
 </div>
 
