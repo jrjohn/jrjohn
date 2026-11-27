@@ -2,8 +2,8 @@
     
 **System/Software Architect | Full-Stack Developer | Technical Lead | Taiwan**
 
-[![Email](https://img.shields.io/badge/Email-jr.johnchang%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:jr.johnchang@gmail.com)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--6249--1470-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-6249-1470)
+[![Email](.github/badges/email-jr-johnchang-gmail-com-ea4335-91e9f338.svg)](mailto:jr.johnchang@gmail.com)
+[![ORCID](.github/badges/orcid-0009-0008-6249-1470-a6ce39-75fe2fd4.svg)](https://orcid.org/0009-0008-6249-1470)
 
 *Building enterprise-grade applications with Clean Architecture design*
 
@@ -157,8 +157,8 @@ A comprehensive collection of enterprise-grade reference architectures implement
 <div align="center">
 
 ![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=jrjohn.jrjohn&left_text=Profile%20Views&left_color=gray&right_color=blueviolet)
-[![GitHub followers](https://img.shields.io/badge/followers-3-blue?style=flat-square&logo=github)](https://github.com/jrjohn?tab=followers)
-[![GitHub stars](https://img.shields.io/badge/stars-11-blue?style=flat-square&logo=github)](https://github.com/jrjohn?tab=repositories)
+[![GitHub followers](.github/badges/followers.svg)](https://github.com/jrjohn?tab=followers)
+[![GitHub stars](.github/badges/stars.svg)](https://github.com/jrjohn?tab=repositories)
 
 </div>
 
